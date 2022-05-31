@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Montserrat-Thin;
+  src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Black;
+  src: url(../fonts/Montserrat-Black.ttf);
+}
+
+body {
+  font-family: Montserrat-Regular;
+  color: #353535;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  text-align: center;
+  background: #F9BF31;
+  width: 250px;
+  padding: 2rem 3rem;
+  color: #141414;
+  text-transform: uppercase;
+  font-family: Montserrat-Bold;
+}
+
+h1 {
+  font-family: Montserrat-Black;
+  font-size: 12rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 8rem;
+  margin: 5rem 0 4rem 0;
+}
+
+h1 .smaller {
+  font-size: 6rem;
+}
+
+h2 {
+  font-family: Montserrat-Thin;
+  color: #FFFFFF;
+  text-transform: lowercase;
+  margin-bottom: 9rem;
+}
+
+h4 {
+  color: #141414;
+  text-transform: uppercase;
+  font-family: Montserrat-Bold;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  margin-bottom: 2rem;
+}
+
+p {
+  text-indent: 1rem;
+}
+
+.container {
+  padding: 0 10rem;
+}
+
+header {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+header .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+header .line {
+  color: white;
+  position: absolute;
+  right: 4rem;
+  top: 30rem;
+}
+
+header .line::before {
+  content: '';
+  background-color: #FFFFFF;
+  width: 1px;
+  height: 20rem;
+  position: absolute;
+}
+
+header .line .circle {
+  position: absolute;
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: white;
+  left: -3px;
+}
+
+header nav {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav-logo img {
+  width: 60px;
+}
+
+header .nav-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+header ul {
+  font-size: 14pt;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Montserrat-Regular;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 4rem;
+}
+
+header ul a {
+  color: #FFFFFF;
+}
+
+section {
+  height: 100vh;
+}
+
+.section-1 {
+  overflow: hidden;
+  position: relative;
+  background-color: #f3f2ec;
+}
+
+.section-1-txt {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+}
+
+.section-1 .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.25fr 1fr;
+      grid-template-columns: 1.25fr 1fr;
+  height: 100vh;
+  place-items: center;
+}
+
+.section-1 .star-black {
+  width: 4rem;
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
+
+.section-1 .bread {
+  position: absolute;
+  left: -18rem;
+  margin: auto;
+  width: 80rem;
+  top: -4rem;
+}
+
+.section-1 .leaf {
+  width: 40rem;
+  position: absolute;
+  bottom: -20rem;
+  right: -15rem;
+}
+
+.section-2 {
+  position: relative;
+  background-image: url(../images/section-pic-1.png);
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+.section-2 .star-white {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
